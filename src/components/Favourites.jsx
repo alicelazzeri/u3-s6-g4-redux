@@ -8,7 +8,7 @@ const Favourites = () => {
   const navigate = useNavigate();
   return (
     <>
-      {favourites.length < 0 ? (
+      {favourites.length > 0 ? (
         <Container>
           <Row>
             <Col>
